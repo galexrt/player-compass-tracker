@@ -9,7 +9,8 @@ public class InitCommand extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        this.CompassTracker.runTaskTimer(this, 1L, 200L);
+        // 15 seconds
+        this.CompassTracker.runTaskTimer(this, 1L, 300L);
     }
 
     @Override
