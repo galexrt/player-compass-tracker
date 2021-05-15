@@ -32,7 +32,7 @@
 				</excludes>
 			</resource>
 			<resource>
-				<directory>${basedir}/src</directory>
+				<directory>${basedir}/src/resources</directory>
 				<filtering>true</filtering>
 				<includes>
 					<include>config.yml</include>
