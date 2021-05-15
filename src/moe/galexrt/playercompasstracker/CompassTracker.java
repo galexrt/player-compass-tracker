@@ -1,4 +1,4 @@
-package me.snoh666.manhunt;
+package moe.galexrt.playercompasstracker;
 
 import org.bukkit.Location;
 import org.bukkit.World;

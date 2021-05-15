@@ -1,4 +1,4 @@
-package me.snoh666.manhunt;
+package moe.galexrt.playercompasstracker;
 
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
@@ -9,8 +9,10 @@ public class InitCommand extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // 15 seconds
-        this.CompassTracker.runTaskTimer(this, 1L, 300L);
+        this.saveDefaultConfig();
+
+        int refreshTime = this.getConfig().getInt("compass.refreshSeconds");
+        this.CompassTracker.runTaskTimer(this, 1L, refreshTime);
     }
 
     @Override

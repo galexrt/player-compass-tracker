@@ -1,0 +1,7 @@
+name: CompassNearestPlayerTracker
+api-version: 1.16
+version: ${project.version}
+authors:
+  - snoh666
+  - galexrt
+main: moe.galexrt.playercompasstracker.InitCommand
